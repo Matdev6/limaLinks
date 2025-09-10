@@ -55,7 +55,7 @@ function App() {
 			</div>
 
 			{/* Redes sociais */}
-			<h2 className="text-2xl font-medium">Contatos & Redes</h2>
+			<h2 className="text-lg font-medium">Contatos & Redes</h2>
 			<div className="flex flex-col gap-4 ">
 				<a href="mailto:arthurlimadefreitas2005@gmail.com" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-all ">
 					<span className="p-2 bg-neutral-300 rounded-full shadow-md animate-bounce">
