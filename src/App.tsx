@@ -42,7 +42,7 @@ function App() {
 				</motion.a>
 
 				<motion.a
-					href="https://open.spotify.com/artist/xxxx" // link para música no Spotify
+					href="https://open.spotify.com/intl-pt/track/4jN8LXtTnYHbKSE4WDTcte" // link para música no Spotify
 					target="_blank"
 					rel="noopener noreferrer"
 					initial={{ x: -300 }}
