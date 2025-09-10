@@ -4,11 +4,11 @@ import { motion } from "motion/react"
 
 function App() {
 	return (
-		<main className="h-[100dvh] w-screen flex flex-col items-center p-6 gap-4 py-10 overflow-y-auto">
+		<main className="h-[100dvh] w-screen flex flex-col items-center justify-center p-6 gap-4 overflow-y-auto">
 			<div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"><div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"></div></div>
 			{/* Perfil */}
 			<div className="flex flex-col items-center gap-3 ">
-				<img src={lima} alt="Foto de perfil Arthur Lima" className="w-36 h-36 rounded-full shadow-lg" />
+				<img src={lima} alt="Foto de perfil Arthur Lima" className="h-32 w-32 md:w-36 md:h-36 rounded-full shadow-lg" />
 				<div className="flex flex-col items-center">
 					<h2 className=" text-2xl font-semibold text-neutral-800">Arthur Lima</h2>
 					<p className="text-neutral-700">Cantor, Compositor e Professor</p>
