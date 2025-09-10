@@ -4,7 +4,7 @@ import { motion } from "motion/react"
 
 function App() {
 	return (
-		<main className="h-[100dvh] w-screen flex flex-col items-center justify-center p-6 gap-4 overflow-y-auto">
+		<main className="h-[100dvh] w-screen flex flex-col items-center justify-center  gap-4 overflow-y-auto">
 			<div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]"><div className="absolute bottom-0 left-0 right-0 top-0 bg-[radial-gradient(circle_500px_at_50%_200px,#C9EBFF,transparent)]"></div></div>
 			{/* Perfil */}
 			<div className="flex flex-col items-center gap-3 ">
@@ -24,7 +24,7 @@ function App() {
 					initial={{ x: -200 }}
 					whileInView={{ x: 0 }}
 					transition={{ duration: 0.7 }}
-					className="w-11/12 md:w-1/4 p-3 rounded-xl bg-neutral-800 text-neutral-50 font-medium flex items-center justify-between text-sm"
+					className="w-11/12 md:w-1/5 p-3 rounded-xl bg-neutral-800 text-neutral-50 font-medium flex items-center justify-between text-sm"
 				>
 					<CalendarDays className="w-5 h-5" /> Agendar Shows <div className="w-5 h-5"></div>
 				</motion.a>
@@ -36,7 +36,7 @@ function App() {
 					initial={{ x: -280 }}
 					whileInView={{ x: 0 }}
 					transition={{ duration: 0.7 }}
-					className="w-11/12 md:w-1/4 p-3 rounded-xl bg-neutral-800 text-neutral-50 font-medium flex items-center justify-between text-sm"
+					className="w-11/12 md:w-1/5 p-3 rounded-xl bg-neutral-800 text-neutral-50 font-medium flex items-center justify-between text-sm"
 				>
 					<Guitar className="w-5 h-5" /> Aulas de Violão <div className="w-5 h-5"></div>
 				</motion.a>
@@ -48,14 +48,14 @@ function App() {
 					initial={{ x: -300 }}
 					whileInView={{ x: 0 }}
 					transition={{ duration: 0.7 }}
-					className="w-11/12 md:w-1/4 p-3 rounded-xl bg-neutral-800 text-neutral-50 font-medium flex items-center justify-between text-sm"
+					className="w-11/12 md:w-1/5 p-3 rounded-xl bg-neutral-800 text-neutral-50 font-medium flex items-center justify-between text-sm"
 				>
 					<Music className="w-5 h-5" /> Ouça Minha Última Música <span className="w-2 h-2"></span>
 				</motion.a>
 			</div>
 
 			{/* Redes sociais */}
-			<h2 className="text-2xl font-medium ">Contatos & Redes</h2>
+			<h2 className="text-2xl font-medium">Contatos & Redes</h2>
 			<div className="flex flex-col gap-4 ">
 				<a href="mailto:arthurlimadefreitas2005@gmail.com" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-all ">
 					<span className="p-2 bg-neutral-300 rounded-full shadow-md animate-bounce">
