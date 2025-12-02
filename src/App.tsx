@@ -1,5 +1,5 @@
 import lima from "../src/assets/lima.jpg"
-import { AudioLines, CalendarDays, Guitar, Instagram, Mail, Music, Phone } from "lucide-react";
+import { AudioLines, CalendarDays, Guitar, Instagram, Mail, Music } from "lucide-react";
 import { motion } from "motion/react"
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
 			{/* Botões principais */}
 			<div className="w-full mt-2 flex flex-col gap-4 items-center">
 				<motion.a
-					href="https://wa.me/5531987161625?text=Olá,%20Arthur!%20Gostaria%20de%20saber%20mais%20sobre%20sua%20agenda%20de%20shows%20e%20eventos." // link WhatsApp para agendar show
+					href="https://instagram.com/arthurlima.oficiall" // link WhatsApp para agendar show
 					target="_blank"
 					rel="noopener noreferrer"
 					initial={{ x: -200 }}
@@ -30,7 +30,7 @@ function App() {
 				</motion.a>
 
 				<motion.a
-					href="https://wa.me/5531987161625?text=Olá,%20Arthur!%20Tenho%20interesse%20nas%20aulas%20de%20violão%20e%20gostaria%20de%20mais%20informações%20sobre%20valores%20e%20disponibilidade."
+					href="https://instagram.com/arthurlima.oficiall"
 					target="_blank"
 					rel="noopener noreferrer"
 					initial={{ x: -280 }}
@@ -42,7 +42,7 @@ function App() {
 				</motion.a>
 
 				<motion.a
-					href="https://open.spotify.com/intl-pt/track/4jN8LXtTnYHbKSE4WDTcte" // link para música no Spotify
+					href="https://instagram.com/arthurlima.oficiall" // link para música no Spotify
 					target="_blank"
 					rel="noopener noreferrer"
 					initial={{ x: -300 }}
@@ -67,7 +67,7 @@ function App() {
 					</div>
 				</a>
 
-				<a href="https://wa.me/5531987161625" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-all">
+				{/* <a href="https://wa.me/5531987161625" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-all">
 					<span className="p-2 bg-neutral-300 rounded-full shadow-md animate-bounce">
 						<Phone className="w-5 h-5" />
 					</span>
@@ -75,7 +75,7 @@ function App() {
 						<span className="text-sm font-medium">WhatsApp</span>
 						<span className="text-sm">(31) 98716-1625</span>
 					</div>
-				</a>
+				</a> */}
 
 				<a href="https://open.spotify.com/intl-pt/artist/0q3hLvR0C8YBuWlVo0uvVT" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-all">
 					<span className="p-2 bg-neutral-300 rounded-full shadow-md animate-bounce">
