@@ -77,7 +77,7 @@ function App() {
 					</div>
 				</a> */}
 
-				<a href="https://open.spotify.com/intl-pt/artist/0q3hLvR0C8YBuWlVo0uvVT" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-all">
+				<a href="https://open.spotify.com/intl-pt/album/3G0uDscSmJwg1lXY8G92oX?si=4T1H-F0cQTi4794UB3PneQ" target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-neutral-700 hover:text-black transition-all">
 					<span className="p-2 bg-neutral-300 rounded-full shadow-md animate-bounce">
 						<AudioLines className="w-5 h-5" />
 					</span>
